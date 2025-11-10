@@ -14,7 +14,6 @@ def get_info_pokemon(name):
 
 pokemon_name = "typhlosion"
 pokemon_info = get_info_pokemon(pokemon_name)
-pokemon_info = get_info_pokemon(pokemon_name)
 
 if pokemon_info:
     print(f"{pokemon_info["name"]}")
